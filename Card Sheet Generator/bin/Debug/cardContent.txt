@@ -1,0 +1,24 @@
+<div class="card-background" style="background-image: url('REPLACECARDIMAGE')">
+			<div class="card-content" style="background-image: url('REPLACEOVERLAY')">
+				<div class="card-name">
+					<p>REPLACENAME</P>
+				</div>
+				<div class="card-cost" style="background-image: url('REPLACECOSTIMAGE')">
+					<p>REPLACECOST</p>
+				</div>
+				<div class="card-faction">
+					<p>REPLACEFACTION</p>
+				</div>	
+				<div class="card-source">
+					<p>REPLACESOURCE</p>
+				</div>
+				<div class="card-type">
+					<p>REPLACETYPE</p>
+				</div>
+				<div class="ability-section">
+					<div class="card-ability-1">
+						<p>REPLACEABILITY1</p>
+					</div>
+				</div>
+			</div>
+		</div>

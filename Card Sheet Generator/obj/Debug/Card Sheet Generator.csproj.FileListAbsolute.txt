@@ -1,0 +1,15 @@
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\Card Sheet Generator.csprojResolveAssemblyReference.cache
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\MainWindow.g.cs
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\App.g.cs
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\Card Sheet Generator_MarkupCompile.cache
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\Card Sheet Generator_MarkupCompile.lref
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\bin\Debug\Card Sheet Generator.exe.config
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\bin\Debug\Card Sheet Generator.exe
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\bin\Debug\Card Sheet Generator.pdb
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\MainWindow.baml
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\Card Sheet Generator.g.resources
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\Card_Sheet_Generator.Properties.Resources.resources
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\Card Sheet Generator.csproj.GenerateResource.Cache
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\Card Sheet Generator.csproj.CoreCompileInputs.cache
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\Card Sheet Generator.exe
+c:\users\seejay\documents\visual studio 2017\Projects\Card Sheet Generator\Card Sheet Generator\obj\Debug\Card Sheet Generator.pdb

@@ -1,0 +1,109 @@
+# to Print	Cost	Tier	Card Name	Type	Source	Ability	Faction	Card Image	Card Overlay
+1	4	1	Zard's Power Rod	Lair	Tech	Steal 1P from each player	Degnu The Old God	cardImage.png	cardOverlay.png
+2	20	3	Living Flesh	Lair	Bio	Whenever you would lose @ in combat, return half of them rounded down to your lair. Gain 1@	Degnu The Old God	cardImage.png	cardOverlay.png
+	6	1	Tentacle Aquarium	Lair	Bio	Gain 3P for each Realm card you control	Degnu The Old God	cardImage.png	cardOverlay.png
+	12	2	Sacrificial Altar	Lair	Mystical	Action: Sacrifice X @ from anywhere and gain 3P per X	Degnu The Old God	cardImage.png	cardOverlay.png
+	6	1	Summoning Circle	Lair	Mystical	3@	Degnu The Old God	cardImage.png	cardOverlay.png
+	10	2	The Necronomicon	Lair	Mystical	Whenever you would gain @ in this column, gain an extra @. Gain 2@	Degnu The Old God	cardImage.png	cardOverlay.png
+	5	1	Scientific College of Chapel's End	Realm	Tech	7P	Degnu The Old God	cardImage.png	cardOverlay.png
+	10	2	Durkoth's Remains	Realm	Bio	Choose one: 5@, 10P, or 1VP	Degnu The Old God	cardImage.png	cardOverlay.png
+	5	1	Mercurial Morass	Realm	Bio	2@ and 2P	Degnu The Old God	cardImage.png	cardOverlay.png
+	18	3	Sinking Temple of Yazu'bhlib	Realm	Mystical	Kill 1@ from each surrounding Realm card.  Gain 1P and 1@ to this card for each killed.	Degnu The Old God	cardImage.png	cardOverlay.png
+	6	1	Streatham Cemetery	Realm	Mystical	Gain 1@ per P on this card. Starts with 1P. If no owner, place 1P on this card when activated.	Degnu The Old God	cardImage.png	cardOverlay.png
+	10	2	Elder Library	Realm	Mystical	Activate any card in your Lair. (Cards can be activated twice)	Degnu The Old God	cardImage.png	cardOverlay.png
+	10	1	Portal to the Beyond	Scheme	Tech	When purchased, you may replace any one of your Lair cards with one from the market for free. Gain 3VP	Degnu The Old God	cardImage.png	cardOverlay.png
+	15	2	Reanimated Durkoth	Scheme	Bio	If you control a Durkoth's Remains, remove it from the board and score and an additional 6 VP. Gain 6VP	Degnu The Old God	cardImage.png	cardOverlay.png
+	0	1	Awaken the Kraken	Scheme	Bio	Sacrifice X @ from anywhere. Gain 1 VP and 1P for every 2@ sacrificed.	Degnu The Old God	cardImage.png	cardOverlay.png
+	24	3	Summon Degnu	Scheme	Mystical	Steal 2P from each player. Action: You may then spend 2X P to gain X@. Gain 6VP	Degnu The Old God	cardImage.png	cardOverlay.png
+	11	1	Revive Yazu'bhlib	Scheme	Mystical	7@ and 1VP	Degnu The Old God	cardImage.png	cardOverlay.png
+	19	2	Ghez'drog Consumes All	Scheme	Mystical	Kill all @ on all Mystical Realm cards. Gain 1VP per affected card.	Degnu The Old God	cardImage.png	cardOverlay.png
+	15	3	Hatchery	Lair	Bio	Gain 2@ for each owned Bio Lair	Psychic Arachnid	cardImage.png	cardOverlay.png
+	6	1	Sludge Clown	Lair	Bio	Steal 1@ from each opponent starting with their Stash	Psychic Arachnid	cardImage.png	cardOverlay.png
+	7	1	Alien Worm	Lair	Bio	Gain 1@ and 1@ for each Bio Card in the column.	Psychic Arachnid	cardImage.png	cardOverlay.png
+	10	2	Uncanny Imposter	Lair	Mystical	Gain 4P + 2@. Counts as every source type.	Psychic Arachnid	cardImage.png	cardOverlay.png
+	12	2	Telepathic Amnesia	Lair	Mystical	Steal 2P from each opponent for every Realm they control	Psychic Arachnid	cardImage.png	cardOverlay.png
+	12	2	Vile Mist	Lair	Mystical	Gain 3P and 3P for each surrounding Mystical Card	Psychic Arachnid	cardImage.png	cardOverlay.png
+	5	1	Sewers	Realm	Bio	Action: Reinforce	Psychic Arachnid	cardImage.png	cardOverlay.png
+	10	2	Barrens	Realm	Bio	Cause an adjacent space to attack another adjacent space with up to 3@	Psychic Arachnid	cardImage.png	cardOverlay.png
+	6	1	Water Reservoir	Realm	Bio	Gain 1@ for each surrounding Realm you don't own	Psychic Arachnid	cardImage.png	cardOverlay.png
+	6	1	Home Town	Realm	Mystical	Gain 2@ for each surrounding Realm you own	Psychic Arachnid	cardImage.png	cardOverlay.png
+	12	2	Memory Palace	Realm	Mystical	Gain 10P. Whenever someone causes you to lose control of this card, steal 5P from them.	Psychic Arachnid	cardImage.png	cardOverlay.png
+	20	3	The Void	Realm	Mystical	Action: Sacrifice 2@ from this card. Kill up to 10@ from surrounding cards.	Psychic Arachnid	cardImage.png	cardOverlay.png
+	10	1	Spider Swarm	Scheme	Bio	Kill 5@ on any card. Gain 2VP	Psychic Arachnid	cardImage.png	cardOverlay.png
+	15	2	Insanity Plague	Scheme	Bio	Cause any two adjacent Realms to battle. Gain 5VP	Psychic Arachnid	cardImage.png	cardOverlay.png
+	13	2	Alien Domination	Scheme	Bio	Gain 3@ and 3@ if you own Water Resevoir. Gain 3VP and 3VP if you own Water Resevoir	Psychic Arachnid	cardImage.png	cardOverlay.png
+	10	1	Doppelganger Invasion	Scheme	Mystical	Owned Realm's minion population becomes same as an adjacent Realm Population owned by an opponent. Gain 3VP	Psychic Arachnid	cardImage.png	cardOverlay.png
+	10	1	Eternal Slumber	Scheme	Mystical	Send up to 10@ from two spaces back to their Lair\Stash. Gain 3VP	Psychic Arachnid	cardImage.png	cardOverlay.png
+	18	3	Temporal Terrors	Scheme	Mystical	Replace any Lair card with one from the discard pile. Gain 6VP	Psychic Arachnid	cardImage.png	cardOverlay.png
+		2	Gadget Genius	Lair	Tech	gain 2P for every Tech in Lair	Anarchist	cardImage.png	cardOverlay.png
+		1		Lair	Tech		Anarchist	cardImage.png	cardOverlay.png
+		1	Economic Destruction	Lair	Tech	destroy 5P from each opponent, gain 2 P	Anarchist	cardImage.png	cardOverlay.png
+		1	Sidekick	Lair	Bio	gain 2@ + 2P	Anarchist	cardImage.png	cardOverlay.png
+		2	Guntpoint Recruitment	Lair	Bio	kill 1@ from each opponent, gain that many @	Anarchist	cardImage.png	cardOverlay.png
+		3		Lair	Bio		Anarchist	cardImage.png	cardOverlay.png
+		1		Realm	Tech		Anarchist	cardImage.png	cardOverlay.png
+		1		Realm	Tech		Anarchist	cardImage.png	cardOverlay.png
+		2		Realm	Tech		Anarchist	cardImage.png	cardOverlay.png
+		2		Realm	Bio		Anarchist	cardImage.png	cardOverlay.png
+		3		Realm	Bio		Anarchist	cardImage.png	cardOverlay.png
+		2		Realm	Bio		Anarchist	cardImage.png	cardOverlay.png
+		3	Total Destruction	Scheme	Tech	Destroy all @ on all Realm cards. Gain 10VP	Anarchist	cardImage.png	cardOverlay.png
+		1		Scheme	Tech		Anarchist	cardImage.png	cardOverlay.png
+		1		Scheme	Tech		Anarchist	cardImage.png	cardOverlay.png
+		1		Scheme	Bio		Anarchist	cardImage.png	cardOverlay.png
+		2		Scheme	Bio	steal an opponent's Lair card?? Gain 10VP	Anarchist	cardImage.png	cardOverlay.png
+		2		Scheme	Bio	cause a surrounding @ population to swap with a different @ population. Gain 10VP	Anarchist	cardImage.png	cardOverlay.png
+		2	Ouija Board Deluxe	Lair	Tech	You may use the top ability of one realm card in this row without owning it.	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		1	Matter Extractor	Lair	Tech	gain 5P	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		3	Ectoplasm Reclamation System	Lair	Tech	For every @ lost on an opponent's turn, gain 1P	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		1	Ghostly Beacon	Lair	Mystical	gain 2P and 2@	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		2	Undead Coffers	Lair	Mystical	Whenever you lose control of a realm card, gain 8P	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		2	Otherworldly Pressence	Lair	Mystical	Use the ability of a lair card in the market	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		2	Siphoning Station	Realm	Tech	Use the top ability of any of the realm cards you don't control. Gain 1P and 1@	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		1	Paranormal Research Facility	Realm	Tech	Gain 10P - the number of @ on this card. Gain 2P	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		1		Realm	Tech	Your lair cards in this row activate twice. Gain 1P and 1@	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		1		Realm	Mystical		Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		2		Realm	Mystical	Gain 2P or 1@ for each Mystical card you control. Gain 1P and 1@	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		3	Gateway to the Ether	Realm	Mystical	You may purchase any card from the market. Gain 3VP	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		2		Scheme	Tech		Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		2		Scheme	Tech		Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		1	Deathly Impossible Equations	Scheme	Tech	For every @ fewer that you control than the person with the most @, gain 1P. Gain 10VP	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		3	Afterlife Wormhole	Scheme	Mystical	Whenever you would gain P from a non-Realm source, gain an extra P. Gain 10VP	Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		1		Scheme	Mystical		Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+		1		Scheme	Mystical		Dr. Evil Ghost Professor	cardImage.png	cardOverlay.png
+	12	2	Radiation Chamber	Lair	Tech	Whenever a card is disabled, gain 5P. Whenever a card is destroyed gain 10P.	Gnarmalash!	cardImage.png	cardOverlay.png
+	10	1	Hibernation Alarm	Lair	Tech	Gain 1 VP	Gnarmalash!	cardImage.png	cardOverlay.png
+	20	3	Bile Acidifier	Lair	Bio	Disable any card. If it is already disabled, destroy it. Gain 4P	Gnarmalash!	cardImage.png	cardOverlay.png
+	7	1	Enormous Eggs	Lair	Bio	Gain 3P and 2@.	Gnarmalash!	cardImage.png	cardOverlay.png
+	10	2	Evolution Pods	Lair	Bio	Gain 8P. Gain 2@ whenever a card is disabled.	Gnarmalash!	cardImage.png	cardOverlay.png
+	9	1	Lightning Portal	Lair	Mystical	Disable any Realm card. Gain 1P	Gnarmalash!	cardImage.png	cardOverlay.png
+	6	1	Hakoshi Tower	Realm	Tech	Gain 8P	Gnarmalash!	cardImage.png	cardOverlay.png
+	6	1	Reptilian Research Centre	Realm	Tech	Gain 4@	Gnarmalash!	cardImage.png	cardOverlay.png
+	11	2	Feeding Chambers	Realm	Bio	Disable any card. Gain 2P for each disabled card.	Gnarmalash!	cardImage.png	cardOverlay.png
+	20	3	Reptilian Meteor Crater	Realm	Bio	Gain 2P and 2@. You may disable one of your Lair cards. If you do, disable a card in each opponents Lair.	Gnarmalash!	cardImage.png	cardOverlay.png
+	5	1	Deng Sum Swamp	Realm	Bio	Gain 5P and Puchase any Lair or Realm card then disable it.	Gnarmalash!	cardImage.png	cardOverlay.png
+	14	2	Feng Zhou Gateway	Realm	Mystical	Activate any realm or lair card then disable it.	Gnarmalash!	cardImage.png	cardOverlay.png
+	10	1	Electro Piledriver	Scheme	Tech	Toggle any card's disabled\enabled state. Gain 3VP	Gnarmalash!	cardImage.png	cardOverlay.png
+	9	1	Power Overwhelming	Scheme	Tech	Gain 20P and 5@. All opponents gain 5 VP	Gnarmalash!	cardImage.png	cardOverlay.png
+	15	2	Biohazardous Blast	Scheme	Bio	Destroy the card with the most @. Gain 5VP	Gnarmalash!	cardImage.png	cardOverlay.png
+	14	2	Unending Growth	Scheme	Bio	Gain additional 1VP for each unused Lair slot. Gain 3VP	Gnarmalash!	cardImage.png	cardOverlay.png
+	24	3	Cumulative Carnage	Scheme	Bio	Whenever a tile is disabled or destroyed add  2 VP to this card. Max 15VP.	Gnarmalash!	cardImage.png	cardOverlay.png
+	9	1	Feast of the Ancients	Scheme	Mystical	5VP	Gnarmalash!	cardImage.png	cardOverlay.png
+	25	3	Trorghian Banker	Lair	Tech	Gain 7P. Action: Pay 3P to steal 1@ from any opponent (repeatable)	The Trorgh	cardImage.png	cardOverlay.png
+	13	2	Trorgh Investment Box	Lair	Tech	Choose: put 1 P on this card OR gain 1P for each P on this card.	The Trorgh	cardImage.png	cardOverlay.png
+	5	1	Trorgh Interns	Lair	Tech	3@	The Trorgh	cardImage.png	cardOverlay.png
+	7	2	Leech Jacket	Lair	Bio	Steal 3P from every opponent	The Trorgh	cardImage.png	cardOverlay.png
+	12	2	Bio-stim Serum	Lair	Bio	Spend X$ to gain X@. Max 8.	The Trorgh	cardImage.png	cardOverlay.png
+	8	1	Ancient Trorgh Amulet	Lair	Mystical	5P and 1@	The Trorgh	cardImage.png	cardOverlay.png
+		2	Cyber City Bridge	Realm	Tech	If you have the least $, remove all @ from this tile. +3$ per @ removed.	The Trorgh	cardImage.png	cardOverlay.png
+		1	Information Superhighway	Realm	Tech	Cards cost 3 less this turn.	The Trorgh	cardImage.png	cardOverlay.png
+		3	Trorghian Bank	Realm	Tech	Discard any amount of $. All players must discard that much $. Then +2$	The Trorgh	cardImage.png	cardOverlay.png
+		1	Trorgh Leech Farm	Realm	Bio	Steal 1$ from any player for every 2@ on this tile.	The Trorgh	cardImage.png	cardOverlay.png
+		2		Realm	Bio		The Trorgh	cardImage.png	cardOverlay.png
+		1	Bridge of the Mist	Realm	Mystical	6P and 1@	The Trorgh	cardImage.png	cardOverlay.png
+		1		Scheme	Tech		The Trorgh	cardImage.png	cardOverlay.png
+		2	Interweb Trorhging	Scheme	Tech	Give to an opponent. They may repurchase this card to give it to someone else. -10vp at game end. (Still counts towards set bonuses)	The Trorgh	cardImage.png	cardOverlay.png
+		3	Economic Meltdown Supreme	Scheme	Tech	Whenever money is discarded by Trorghian Bank, put it here. This card is worth 2vp per 5$. (Numbers will need tweaking) Maybe do it based on player #. like 5/3/2 $ for 4/3/2 players	The Trorgh	cardImage.png	cardOverlay.png
+		1	Electro-Hurricane	Scheme	Bio		The Trorgh	cardImage.png	cardOverlay.png
+		2	The Great Leechening	Scheme	Bio	Steal any one lair card from any player. Gain 10VP	The Trorgh	cardImage.png	cardOverlay.png
+		1	Ghost Troll Horde	Scheme	Mystical		The Trorgh	cardImage.png	cardOverlay.png
