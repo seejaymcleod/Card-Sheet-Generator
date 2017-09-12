@@ -21,34 +21,39 @@ namespace Card_Sheet_Generator
     public partial class MainWindow : Window
     {
 
-        string dataSheetName = "";
+        string dataSheetName;
+        string htmlContent;
+        string cardTemplate;
         string outputFileName = "testfile.html";
         string costImage = "cardCost.png";
-        string htmlContent;
 
-        string cardTemplate;
 
         public MainWindow()
         {
             InitializeComponent();
-            rtb_Console.AppendText("Program Started");
+            ConsoleClear();
         }
 
-        private void ConsoleMakeText(string TextToMake)
+        private void ConsoleAdd(string TextToAdd)
+        {
+            rtb_Console.AppendText(TextToAdd + "\r");
+        }
+
+        private void ConsoleClear()
         {
             rtb_Console.Document.Blocks.Clear();
-            rtb_Console.AppendText(TextToMake);
-        }
-
-        private void ConsoleAddText(string TextToAdd)
-        {
-            rtb_Console.AppendText("\n" + TextToAdd);
         }
 
         private void loadSourceFile()
         {
-            ConsoleMakeText("Source file loading. Please wait...");
-            string line;
+            //Reset Vars from previous run through
+            cardTemplate = "";
+            htmlContent = "";
+
+            ConsoleAdd("Source file loading. Please wait...");
+
+            //Read from source file: cardSheetHead.txt
+            string line = "";
             System.IO.StreamReader file = new System.IO.StreamReader("cardSheetHead.txt");
             while ((line = file.ReadLine()) != null)
             {
@@ -56,23 +61,26 @@ namespace Card_Sheet_Generator
             }
             file.Close();
 
+            //Reset line var
             line = "";
+
+            //Read from source file: cardContent.txt
             file = new System.IO.StreamReader("cardContent.txt");
             while ((line = file.ReadLine()) != null)
             {
                 cardTemplate += (line + "\n");
             }
             file.Close();
-            ConsoleAddText("Source file load complete");
+            ConsoleAdd("Source file load complete");
         }
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
             loadSourceFile();
             //// Create OpenFileDialog 
             // Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
-
 
             //// Display OpenFileDialog by calling ShowDialog method 
             //  Nullable<bool> result = dlg.ShowDialog();
@@ -84,22 +92,21 @@ namespace Card_Sheet_Generator
             //    dataSheetName = dlg.FileName;                        
             //}
 
-            dataSheetName = "Card Library - Sheet1.tsv";
+            dataSheetName = "Card Library - Sheet.tsv";
 
             //Deletes outputFileName if found
             if (System.IO.File.Exists(outputFileName))
             {
                 System.IO.File.Delete(outputFileName);
-                ConsoleAddText("Deleting old output file.");
+                ConsoleAdd("Deleting old output file: " + outputFileName);
             }
-
-
 
             if (dataSheetName != null && dataSheetName != "")
             {
-                ConsoleAddText("Generating output file. Please wait...");
+                ConsoleAdd("Generating output file: " + outputFileName);
                 string line = "";
                 string outputFileContent = "";
+                bool numFail = false;
                 outputFileContent += htmlContent;
 
                 string templateCopy = "";
@@ -111,36 +118,78 @@ namespace Card_Sheet_Generator
                     //skips first line
                     if (lineCount > 0)
                     {
+                        if (numFail == false)
+                        {
+                            //Creates an array of Card details from the line
+                            string[] cardDetails = line.Split('\t');
 
-                        //Creates an array of Card details from the line
-                        string[] cardDetails = line.Split('\t');
+                            //Number of copies per card checker
+                            int numCopies = 0;
 
-                        //Creates number of copies based on print column.
-                        //int numCopies = 0;
-                        //if (cardDetails[0] != "")
-                        //{
-                        //    numCopies = Int32.Parse(cardDetails[0]);
-                        //}
+                            //If ignoring the print column from the TSV
+                            if (chkBox_overridePrintNum.IsChecked == true)
+                            {
+                                try
+                                {
+                                    numCopies = Int32.Parse(txtBox_overridePrintNum.Text);
+                                }
+                                catch
+                                {
+                                    numFail = true;
+                                }
+                            }
 
-                        //for (int i = 0; i < numCopies; i++)
-                        //{
-                            //Adds default template to the temporary copy
-                            templateCopy = "";
-                            templateCopy += cardTemplate;
+                            // Else create number of copies based on print column. (Default)
+                            else
+                            {
+                                if (cardDetails[0] != "")
+                                {
+                                    try
+                                    {
+                                        numCopies = Int32.Parse(cardDetails[0]);
+                                    }
+                                    catch
+                                    {
+                                        numFail = true;
+                                    }
+                                }
+                            }
 
-                            //Replace all elements in HTML with parts from the file.
-                            templateCopy = templateCopy.Replace("REPLACECOSTIMAGE", costImage);
-                            templateCopy = templateCopy.Replace("REPLACECOST", cardDetails[1]);
-                            templateCopy = templateCopy.Replace("REPLACENAME", cardDetails[3]);
-                            templateCopy = templateCopy.Replace("REPLACETYPE", cardDetails[4]);
-                            templateCopy = templateCopy.Replace("REPLACESOURCE", cardDetails[5]);
-                            templateCopy = templateCopy.Replace("REPLACEABILITY1", cardDetails[6]);
-                            templateCopy = templateCopy.Replace("REPLACEFACTION", cardDetails[7]);
-                            templateCopy = templateCopy.Replace("REPLACECARDIMAGE", cardDetails[8]);
-                            templateCopy = templateCopy.Replace("REPLACEOVERLAY", cardDetails[9]);
+                            //Test for reasonable number
+                            if (numCopies > 10 || numCopies < 0)
+                            {
+                                numFail = true;
+                            }
 
-                            outputFileContent += templateCopy;
-                        //}
+                            //Error test
+                            if (numFail == true)
+                            {
+                                ConsoleAdd("Invalid number of copies requested: " + numCopies);
+                                ConsoleAdd("Printing ZERO instead");
+                                numCopies = 0;
+                            }
+
+                            //Main replacement loop to be run on each line (CARD)
+                            for (int i = 0; i < numCopies; i++)
+                            {
+                                //Adds default template to the temporary copy
+                                templateCopy = "";
+                                templateCopy += cardTemplate;
+
+                                //Replace all elements in HTML with parts from the file.
+                                templateCopy = templateCopy.Replace("REPLACECOSTIMAGE", costImage);
+                                templateCopy = templateCopy.Replace("REPLACECOST", cardDetails[1]);
+                                templateCopy = templateCopy.Replace("REPLACENAME", cardDetails[3]);
+                                templateCopy = templateCopy.Replace("REPLACETYPE", cardDetails[4]);
+                                templateCopy = templateCopy.Replace("REPLACESOURCE", cardDetails[5]);
+                                templateCopy = templateCopy.Replace("REPLACEABILITY1", cardDetails[6]);
+                                templateCopy = templateCopy.Replace("REPLACEFACTION", cardDetails[7]);
+                                templateCopy = templateCopy.Replace("REPLACECARDIMAGE", cardDetails[8]);
+                                templateCopy = templateCopy.Replace("REPLACEOVERLAY", cardDetails[9]);
+
+                                outputFileContent += templateCopy;
+                            }
+                        }
                     }
                     else
                     {
@@ -154,9 +203,33 @@ namespace Card_Sheet_Generator
 
                 System.IO.StreamWriter fileOut = new System.IO.StreamWriter(outputFileName);
                 fileOut.Write(outputFileContent);
-                file.Close();
-                ConsoleAddText("Generating output file complete.");
+                fileOut.Close();
+                ConsoleAdd("Generating output file complete.");
+                ConsoleAdd("--------------------------------");
             }
         }
+
+        private void RichTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // set the current caret position to the end
+            rtb_Console.ScrollToEnd();
+        }
+
+        private void chkBox_ignorePrintNum_ToggleCheck(object sender, RoutedEventArgs e)
+        {
+            //Toggles the print # 
+            if (lbl_overrideLabel.IsEnabled == true)
+            {
+                lbl_overrideLabel.IsEnabled = false;
+                txtBox_overridePrintNum.IsEnabled = false;
+            }
+            else
+            {
+                lbl_overrideLabel.IsEnabled = true;
+                txtBox_overridePrintNum.IsEnabled = true;
+            }
+        }
+
+
     }
 }
