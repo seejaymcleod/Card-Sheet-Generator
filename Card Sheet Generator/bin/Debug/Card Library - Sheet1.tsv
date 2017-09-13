@@ -1,12 +1,12 @@
 # to Print	Cost	Tier	Card Name	Type	Source	Ability	Faction	Card Image	Card Overlay
 1	4	1	Zard's Power Rod	Lair	Tech	Steal 1P from each player	Degnu The Old God	cardImage.png	cardOverlay.png
-2	20	3	Living Flesh	Lair	Bio	Whenever you would lose @ in combat, return half of them rounded down to your lair. Gain 1@	Degnu The Old God	cardImage.png	cardOverlay.png
+	20	3	Living Flesh	Lair	Bio	Whenever you would lose @ in combat, return half of them rounded down to your lair. Gain 1@	Degnu The Old God	cardImage.png	cardOverlay.png
 	6	1	Tentacle Aquarium	Lair	Bio	Gain 3P for each Realm card you control	Degnu The Old God	cardImage.png	cardOverlay.png
 	12	2	Sacrificial Altar	Lair	Mystical	Action: Sacrifice X @ from anywhere and gain 3P per X	Degnu The Old God	cardImage.png	cardOverlay.png
 	6	1	Summoning Circle	Lair	Mystical	3@	Degnu The Old God	cardImage.png	cardOverlay.png
 	10	2	The Necronomicon	Lair	Mystical	Whenever you would gain @ in this column, gain an extra @. Gain 2@	Degnu The Old God	cardImage.png	cardOverlay.png
 	5	1	Scientific College of Chapel's End	Realm	Tech	7P	Degnu The Old God	cardImage.png	cardOverlay.png
-	10	2	Durkoth's Remains	Realm	Bio	Choose one: 5@, 10P, or 1VP	Degnu The Old God	cardImage.png	cardOverlay.png
+1	10	2	Durkoth's Remains	Realm	Bio	Choose one: 5@, 10P, or 1VP	Degnu The Old God	cardImage.png	cardOverlay.png
 	5	1	Mercurial Morass	Realm	Bio	2@ and 2P	Degnu The Old God	cardImage.png	cardOverlay.png
 	18	3	Sinking Temple of Yazu'bhlib	Realm	Mystical	Kill 1@ from each surrounding Realm card.  Gain 1P and 1@ to this card for each killed.	Degnu The Old God	cardImage.png	cardOverlay.png
 	6	1	Streatham Cemetery	Realm	Mystical	Gain 1@ per P on this card. Starts with 1P. If no owner, place 1P on this card when activated.	Degnu The Old God	cardImage.png	cardOverlay.png
@@ -14,10 +14,10 @@
 	10	1	Portal to the Beyond	Scheme	Tech	When purchased, you may replace any one of your Lair cards with one from the market for free. Gain 3VP	Degnu The Old God	cardImage.png	cardOverlay.png
 	15	2	Reanimated Durkoth	Scheme	Bio	If you control a Durkoth's Remains, remove it from the board and score and an additional 6 VP. Gain 6VP	Degnu The Old God	cardImage.png	cardOverlay.png
 	0	1	Awaken the Kraken	Scheme	Bio	Sacrifice X @ from anywhere. Gain 1 VP and 1P for every 2@ sacrificed.	Degnu The Old God	cardImage.png	cardOverlay.png
-	24	3	Summon Degnu	Scheme	Mystical	Steal 2P from each player. Action: You may then spend 2X P to gain X@. Gain 6VP	Degnu The Old God	cardImage.png	cardOverlay.png
+1	24	3	Summon Degnu	Scheme	Mystical	Steal 2P from each player. Action: You may then spend 2X P to gain X@. Gain 6VP	Degnu The Old God	cardImage.png	cardOverlay.png
 	11	1	Revive Yazu'bhlib	Scheme	Mystical	7@ and 1VP	Degnu The Old God	cardImage.png	cardOverlay.png
 	19	2	Ghez'drog Consumes All	Scheme	Mystical	Kill all @ on all Mystical Realm cards. Gain 1VP per affected card.	Degnu The Old God	cardImage.png	cardOverlay.png
-	15	3	Hatchery	Lair	Bio	Gain 2@ for each owned Bio Lair	Psychic Arachnid	cardImage.png	cardOverlay.png
+2	15	3	Hatchery	Lair	Bio	Gain 2@ for each owned Bio Lair	Psychic Arachnid	cardImage.png	cardOverlay.png
 	6	1	Sludge Clown	Lair	Bio	Steal 1@ from each opponent starting with their Stash	Psychic Arachnid	cardImage.png	cardOverlay.png
 	7	1	Alien Worm	Lair	Bio	Gain 1@ and 1@ for each Bio Card in the column.	Psychic Arachnid	cardImage.png	cardOverlay.png
 	10	2	Uncanny Imposter	Lair	Mystical	Gain 4P + 2@. Counts as every source type.	Psychic Arachnid	cardImage.png	cardOverlay.png
@@ -26,7 +26,7 @@
 	5	1	Sewers	Realm	Bio	Action: Reinforce	Psychic Arachnid	cardImage.png	cardOverlay.png
 	10	2	Barrens	Realm	Bio	Cause an adjacent space to attack another adjacent space with up to 3@	Psychic Arachnid	cardImage.png	cardOverlay.png
 	6	1	Water Reservoir	Realm	Bio	Gain 1@ for each surrounding Realm you don't own	Psychic Arachnid	cardImage.png	cardOverlay.png
-	6	1	Home Town	Realm	Mystical	Gain 2@ for each surrounding Realm you own	Psychic Arachnid	cardImage.png	cardOverlay.png
+2	6	1	Home Town	Realm	Mystical	Gain 2@ for each surrounding Realm you own	Psychic Arachnid	cardImage.png	cardOverlay.png
 	12	2	Memory Palace	Realm	Mystical	Gain 10P. Whenever someone causes you to lose control of this card, steal 5P from them.	Psychic Arachnid	cardImage.png	cardOverlay.png
 	20	3	The Void	Realm	Mystical	Action: Sacrifice 2@ from this card. Kill up to 10@ from surrounding cards.	Psychic Arachnid	cardImage.png	cardOverlay.png
 	10	1	Spider Swarm	Scheme	Bio	Kill 5@ on any card. Gain 2VP	Psychic Arachnid	cardImage.png	cardOverlay.png

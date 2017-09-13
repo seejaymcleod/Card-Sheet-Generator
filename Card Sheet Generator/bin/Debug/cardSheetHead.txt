@@ -55,17 +55,17 @@
 				text-shadow: 1px 1px white;
 			}
 			
-			.card-faction{
-			    padding-top: 6px;
-				margin-left: 40px;
+			.card-faction {
+				margin-left: 70px;
+				margin-top: 70px;
 				max-height: 20px;
-				max-width: 300px;
+				max-width: 340px;
 				height: 20px;
-				width: 300px;
-				float: left;
+				width: 340px;
+				position: absolute;
 			}
-			
-			.card-faction p{
+					
+			.card-faction p {
 				height: 20px;
 				line-height: 20px;
 				font-size: 1.5em;
@@ -75,10 +75,12 @@
 				text-shadow: 2px 2px black;
 				font-family: "Calibri";
 				font-variant: small-caps;
+				text-align: center;
 			}
-						
+					
 			.card-source{
 				margin-left: 40px;
+				margin-top: 10px;
 				max-height: 20px;
 				max-width: 200px;
 				height: 20px;
@@ -99,14 +101,14 @@
 			}			
 
 			.card-type {
-				margin-left: 48px;
+				margin-left: 140px;
 				margin-top: 346px;
 				max-height: 20px;
 				max-width: 200px;
 				height: 20px;
-				width: 200px;				
+				width: 200px;
 			}
-			
+
 			.card-type p {
 				height: 20px;
 				line-height: 20px;
@@ -117,8 +119,9 @@
 				text-shadow: 2px 2px black;
 				font-family: "Calibri";
 				font-variant: small-caps;
+				text-align: center;
 			}
-					
+								
 			.ability-section{
 				margin-left:48px;		
 				max-height:91px;

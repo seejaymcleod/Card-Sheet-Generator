@@ -10,7 +10,7 @@
 					<p>REPLACEFACTION</p>
 				</div>	
 				<div class="card-source">
-					<p>REPLACESOURCE</p>
+					<img src="REPLACEIMAGESOURCE">
 				</div>
 				<div class="card-type">
 					<p>REPLACETYPE</p>

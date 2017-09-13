@@ -92,7 +92,7 @@ namespace Card_Sheet_Generator
             //    dataSheetName = dlg.FileName;                        
             //}
 
-            dataSheetName = "Card Library - Sheet.tsv";
+            dataSheetName = "Card Library - Sheet1.tsv";
 
             //Deletes outputFileName if found
             if (System.IO.File.Exists(outputFileName))
@@ -169,8 +169,27 @@ namespace Card_Sheet_Generator
                                 numCopies = 0;
                             }
 
+                            //Image substitutions for CardDetails[5] (source)
+                            string imageReplacementSource = "";
+
+                            switch (cardDetails[5])
+                            {
+                                case "Bio":
+                                    imageReplacementSource = "bio.png";
+                                    break;
+                                case "Tech":
+                                    imageReplacementSource = "tech.png";
+                                    break;
+                                case "Mystical":
+                                    imageReplacementSource = "mystical.png";
+                                    break;
+                                default:
+                                    imageReplacementSource = "cardCost.png";
+                                    break;                                    
+                            }
+
                             //Main replacement loop to be run on each line (CARD)
-                            for (int i = 0; i < numCopies; i++)
+                                for (int i = 0; i < numCopies; i++)
                             {
                                 //Adds default template to the temporary copy
                                 templateCopy = "";
@@ -181,11 +200,16 @@ namespace Card_Sheet_Generator
                                 templateCopy = templateCopy.Replace("REPLACECOST", cardDetails[1]);
                                 templateCopy = templateCopy.Replace("REPLACENAME", cardDetails[3]);
                                 templateCopy = templateCopy.Replace("REPLACETYPE", cardDetails[4]);
-                                templateCopy = templateCopy.Replace("REPLACESOURCE", cardDetails[5]);
+                               // templateCopy = templateCopy.Replace("REPLACESOURCE", cardDetails[5]);
+                                templateCopy = templateCopy.Replace("REPLACEIMAGESOURCE", imageReplacementSource);
                                 templateCopy = templateCopy.Replace("REPLACEABILITY1", cardDetails[6]);
                                 templateCopy = templateCopy.Replace("REPLACEFACTION", cardDetails[7]);
                                 templateCopy = templateCopy.Replace("REPLACECARDIMAGE", cardDetails[8]);
                                 templateCopy = templateCopy.Replace("REPLACEOVERLAY", cardDetails[9]);
+
+                               
+                                
+
 
                                 outputFileContent += templateCopy;
                             }
