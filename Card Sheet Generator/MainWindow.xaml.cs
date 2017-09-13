@@ -206,6 +206,11 @@ namespace Card_Sheet_Generator
                 fileOut.Close();
                 ConsoleAdd("Generating output file complete.");
                 ConsoleAdd("--------------------------------");
+
+                if (numFail != true)
+                {
+                    System.Diagnostics.Process.Start(outputFileName);
+                }
             }
         }
 
